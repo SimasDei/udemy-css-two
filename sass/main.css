@@ -15,14 +15,14 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
-
 .container {
   height: 500px;
   background-color: #ccc;
   display: flex;
   justify-content: center;
-
-  h3 {
-    color: #999;
-  }
 }
+.container h3 {
+  color: #999;
+}
+
+/*# sourceMappingURL=main.css.map */

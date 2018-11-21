@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "Bookaroo",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Landing page for Bookaroo",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -13,8 +13,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  "author": "Jonas",
-  "license": "ISC",
+  "author": "Sai",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
